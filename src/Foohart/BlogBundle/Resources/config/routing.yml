@@ -1,0 +1,10 @@
+FoohartBlogBundle_homepage:
+    pattern:  /
+    defaults: { _controller: FoohartBlogBundle:Page:index }
+FoohartBlogBundle_blogindex:
+    pattern:  /blog/
+    defaults: { _controller: FoohartBlogBundle:Blog:index }
+FoohartBlogBundle_blog:
+    pattern:  /blog/{slug}
+    defaults: { _controller: FoohartBlogBundle:Blog:blog }
+

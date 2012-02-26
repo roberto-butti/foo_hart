@@ -1,0 +1,7 @@
+parameters:
+#    foohart_blog.example.class: Foohart\BlogBundle\Example
+
+services:
+#    foohart_blog.example:
+#        class: %foohart_blog.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

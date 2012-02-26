@@ -10,6 +10,23 @@ gli utenti ne decretano la qualità fornendo feedback, rating, commenti.
 Il motore sviluppato in [Symfony2](http://symfony.com/) è
 disponibile tramite [repo GitHub](https://github.com/roberto-butti/foo_hart).
 
+Come partire
+-------------
+Una volta scaricati i sorgenti, occorre recuperare i moduli necessari per Symfony 2:
+
+    $ php bin/vendors install
+    $ find vendor -name .git -type d | xargs rm -rf 
+
+Quindi occorre pubblicare gli assets distribuiti con i Bundle:
+
+    $ php app/console  assets:install web
+
+Ripulire la cache:
+
+    $ php app/console cache:clear --env=prod --no-debug
+    $ php app/console cache:clear --env=prod
+    $ php app/console cache:clear
+
 
 Risorse utili
 ---------------
