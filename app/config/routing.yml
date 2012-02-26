@@ -1,3 +1,7 @@
+FoohartUserBundle:
+    resource: "@FoohartUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
 FoohartBlogBundle:
     resource: "@FoohartBlogBundle/Resources/config/routing.yml"
     prefix:   /
