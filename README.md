@@ -10,19 +10,11 @@ gli utenti ne decretano la qualità fornendo feedback, rating, commenti.
 Il motore sviluppato in [Symfony2](http://symfony.com/) è
 disponibile tramite [repo GitHub](https://github.com/roberto-butti/foo_hart).
 
-1) TODO
---------------------------------
-
-Siamo solo all'inizio :)
-
-### Stay (*Tuned*)
-
 
 Risorse utili
 ---------------
-The Symfony Standard Edition comes pre-configured with the following bundles:
-	
-* **Symfony2** - The core Symfony framework bundle
+
+* **Symfony2** - [The core Symfony framework bundle](http://symfony.com/)
 * **Symfony Blog Tutorial** - http://tutorial.symblog.co.uk/
 
-Enjoy!
+
